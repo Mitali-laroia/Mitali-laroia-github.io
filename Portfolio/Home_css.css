@@ -1,0 +1,254 @@
+ @import url('https://fonts.googleapis.com/css?family=ABeeZee');
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+	font-family: "ABeeZee";
+}
+
+body {
+	background: url("https://i.pinimg.com/originals/0a/eb/4f/0aeb4f2ffb03ad1493a45e2192586153.jpg");
+	font: 16px ; line-height: 24px;
+}
+
+
+#container {
+	width: 960px; 
+	margin: 0 auto;
+}
+
+ul#nav {
+	width: 940px;
+	list-style: none; 
+	overflow: hidden;
+    margin: 50px auto 25px auto;
+}
+
+ul#nav li {
+		width: 126px;
+		height: 40px; 
+		float: left; 
+		padding: 13px 0 0 0;
+		background:#000000 ;
+		font-weight: bold;
+		text-align: center; 
+		text-transform: uppercase;
+		margin: 0 60px 0 0;
+	}
+
+ul#nav li a {
+			color: #FFFFFF;
+		    text-decoration: none;
+		}
+			
+ul#nav li a:hover {
+				color: #a12121;
+			}
+
+#header {
+	height: 400px; padding: 52px 0 0 57px;
+	width: 1000px;
+	background: url(profile1.png);
+}
+
+#header h1 {
+		font: 38px; color: #FFFFFF; letter-spacing: 2px; margin: 0 0 20px 0;
+		text-shadow: 0px 3px 3px #494949;
+		font-family: "ABeeZee";
+	}
+
+
+#header h2 {
+		width: 510px; font: 30px ; color: #FFFFFF; letter-spacing: 2px; margin: 0 0 20px 0;
+		text-shadow: 0px 3px 3px #494949;
+		font-family: "ABeeZee";
+	}
+
+#header p.btn a {
+		display: block; width: 225px; height: 50px; overflow: hidden;
+		background-color: #000000;
+		text-align: center;
+		font-family: "ABeeZee";
+		font-size: 20px;
+		color: #FFFFFF;
+		padding-top: 15px; 
+	}
+
+.animate__animated.animate__backInDown {
+  --animate-duration: 1s;
+  --animation-delay: 5s;
+}
+
+.animate__animated.animate__zoomIn {
+  --animate-duration: 1s;
+  --animation-delay: 0s;
+}
+
+#content {
+	padding: 57px 69px 50px 69px; overflow: hidden;
+}
+
+#Flex-container{
+	height: 2100px;
+	width: 700px;
+	align-self: center;
+	align-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+#flex-item{
+	padding: 10px 10px 10px 10px;
+	align-self: center;
+	margin: 4px 4px 4px 4px;
+	border: 4px solid #FFFFFF;
+}
+
+#content h1,h2,h3,h4,h5{
+	font-size: 35px ;
+	margin: 0 0 20px 0;
+	font-family: "ABeeZee";
+	color: #FFFFFF;
+}
+
+#content p{
+	margin: 0 0 30px 0;
+	font-size: 25px ;
+	font-family: "ABeeZee";
+	color: #FFFFFF;
+}
+
+#content #contact{
+	width: 420px;
+	float: left;
+	margin: 0px 40px 0px 0px;
+	background-color: #000000;
+}
+
+#content #contact label{
+	float: left;
+	margin: 11px 20px 0px 5px;
+	width: 95px;
+	text-align: right;
+	font-size: 15px;
+	font : "ABeeZee";
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+#content #contact input{
+	width: 250px;
+	height: 35px;
+	padding: 5px 20px 0px 20px;
+	margin: 10px 5px 30px 0px;
+	background-color: #A9A9A9;
+	border-radius: 5px;
+	font-family: "ABeeZee";
+	font-size: 15px;
+	color: #FFFFFF;
+	color: #000000;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px ;
+  grid-template-rows: 200px 200px 200px 200px;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  border: 1px solid #FFFFFF;
+}
+
+ #Personnel{
+	font-family: "ABeeZee";
+	height: 300px;
+	width: 700px;
+	border: 4px solid #FFFFFF;
+	padding: 4px 4px 4px 4px;
+	align-content: center;
+	justify-content: center;
+}
+
+
+#content #contact textarea {
+		width: 256px; height: 170px; padding: 12px 20px 0px 20px; margin: 0 0 10px 0;
+		background: #A9A9A9;
+		border-radius: 5px; 
+		font-family: "ABeeZee"; font-size: 16px; color: #000000;
+	}
+
+#content #contact input[type=submit] {
+		width: 185px; height: 52px; float: right; padding: 10px 15px; 
+		border: 1px solid #FFFFFF;
+		cursor: pointer;
+		align-self: center;
+		margin : 10px 10px 10px 5px;
+	}
+
+#content #social {
+	width: 350px; float: left; 
+}
+
+#content #social ul {
+	list-style: none;
+	}
+		
+#content #social ul li {
+		float: left; margin: 0 20px 20px 0;
+		font-size: 25px;
+		font-family: "ABeeZee";
+		color: #FFFFFF;
+		}
+			
+
+#content #social ul li a {
+		display: block; width: 100px; padding: 5px 0 5px 45px;
+		background:  no-repeat;
+		text-decoration: none;
+		color: #FFFFFF;
+
+			}
+
+#content #social ul li a:hover {
+				color: #a12121;
+			}
+
+#content #social ul li a.twitter { background-position: 0 -3px; }
+#content #social ul li a.facebook { background-position: -172px -136px; }
+
+	#footer p#copyright {
+		background-color: #000000;
+		font-size: 12px; float: left; margin: 0 0 0 30px; color: #FFFFFF;
+	}
+	#footer  #back-top {
+		font-size: 12px; float: right; margin: 0 30px 0 0;
+		color: #FFFFFF;
+		font-family: "ABeeZee";
+	}
+
+#hero-image {
+  background-image:  url("profile.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  width: 1365px;
+}
+
+#hero-text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  width: 500px;
+  transform: translate(-50%, -50%);
+
+}
+
+#hero-text a{
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #FF0000;
+	font-size: 25px;
+}
